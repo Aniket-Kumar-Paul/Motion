@@ -3,3 +3,14 @@
 To add shadcn component (add)
 > npx shadcn@latest add button
 
+# All folders inside app are routable (page.tsx)
+    |- To make them unroutable, add _ in the beginning, eg. _components
+    |- Organisational folders - using parenthesis () -> unroutable/not part of url until it reaches a normal folder
+    Eg. app
+        |- (auth)
+        |- (routes)
+        |   |- login
+        |   |   |- page.tsx 
+        |   |- register
+    > we can directly access <base url>/login instead of /auth/routes/login
+    
