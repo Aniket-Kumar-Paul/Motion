@@ -1,0 +1,5 @@
+> npx create-next-app@latest .
+> npx shadcn@latest init
+To add shadcn component (add)
+> npx shadcn@latest add button
+
