@@ -14,3 +14,9 @@ To add shadcn component (add)
         |   |- register
     > we can directly access <base url>/login instead of /auth/routes/login
     
+# Authentication & DB 
+- Using convex & clerk
+> npm install convex
+> npx convex dev
+- follow convex documentation to connect with clerk
+> npm install @clerk/clerk-react
